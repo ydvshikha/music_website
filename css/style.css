@@ -1,0 +1,370 @@
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../font/BrandonGrotesque-Light.woff2') format('woff2'),
+        url('../font/BrandonGrotesque-Light.woff') format('woff');
+    /* font-weight: 300;
+    font-style: normal;
+    font-display: swap; */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #21212E;
+    font-family: 'Brandon Grotesque';
+    color:#fff;
+  
+    
+    
+}
+p{
+    color: #A9ADAD;
+}
+
+.header_area .main_menu .navbar {
+    padding:3rem 10rem;
+}
+.navbar-brand{
+   font-size: 25px;
+   font-weight: bold;
+
+}
+.navbar-brand-1{
+    margin-top: -1rem !important;
+    letter-spacing: 0.1rem;
+   padding-top: 0;
+  
+}
+
+
+.header_area .main_menu .navbar .navbar-nav a{
+    padding: 2rem;
+    color:#A9ADAD;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-area .home .main-text h3{
+    
+    padding-top: 6rem;
+    margin-left:-2.5rem;
+    font-size: 75px;
+    font-weight: bolder;
+    
+}
+.para{
+    margin-left:-2rem;
+    padding-top: 1rem;
+    color: #A9ADAD;
+    font-size: 20px;
+}
+.banner-area .home .image>img{
+   margin-top: -5rem;
+   padding-right: 0;
+   margin-left: 6rem;
+    
+}
+
+img.app{
+    margin-top: -1rem;
+    width:15vw;
+    margin-left: -2rem;
+}
+img.play{
+    margin-top: -1rem;
+    width:15vw;
+    margin-left: -1rem;
+
+}
+.about-area .main-text{
+    padding-top: 6rem;
+    margin-left:-2rem;
+    font-size: 75px;
+    font-weight: bolder;
+}
+.about-area .about-text h3{
+    margin-top: 8rem;
+    margin-left: -2rem;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.about-area .para{
+    margin-left: -3rem;
+}
+.about-area img{
+    margin-left: 8rem;
+    margin-top: 6rem;
+}
+
+.showcase .main-text{
+    padding-top: 6rem;
+    margin-left:-2rem;
+    font-size: 75px;
+    font-weight: bolder;
+}
+.showcase .slider ul>li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+
+
+/* ===============bootstrap=================== */
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card1 .card2 {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 550px;
+    overflow:hidden;
+}
+
+
+.features-area .main-text{
+    padding-top: 6rem;
+    margin-left:-2rem;
+    font-size: 75px;
+    font-weight: bolder;
+}
+.features-area .features-text h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: -2rem;
+    margin-top:8rem;
+}
+.features-area .para {
+    margin-left:-3rem;
+    
+}
+.features-area button{
+    width:10rem;
+    line-height: 2;
+    padding: 0.3rem;
+    background:#46C2FF;
+    color:#fff;
+    font-weight: bolder;
+}
+.features-area .card-1{
+    margin-top:15rem;
+    background-color:#191924;
+    border: none
+}
+.card-img{
+    padding:1rem 0;
+    background-color: #21212E;
+    float: left;
+    margin-top: 2rem;
+}
+.card .card-body .card-text{
+    margin-top: 1rem;
+    padding: 0.3rem;
+    background-color:#191924;
+    font-weight: bolder;
+    font-size: 16px;
+   
+}
+.card-text-para{
+    color:#A9ADAD;
+    background-color:#191924;
+    font-size: 14px;
+}
+.card-img img{
+    margin-left: 2rem;
+    background-color: #21212E;
+}
+.card-body{
+    background-color:#191924 !important;
+   
+
+}
+.card-2{
+    margin-left: 11rem;
+    margin-top: 6rem;
+    
+}
+.card-3{
+    margin-left: 20rem;
+    margin-top: -7rem;
+    padding-top: 0px;
+}
+.review-area .card{
+   width:20vw;
+    align-items: center;
+    
+    margin-top: 2rem;
+    
+}
+
+.review-area .main-text{
+    padding-top: 6rem;
+    margin-left:-2rem;
+    font-size: 75px;
+    font-weight: bolder;
+    
+}
+
+.review-area .row>.col-lg-3:nth-child(n){
+    margin-left: 0rem;
+}
+
+.newsletter .col-lg-4{
+    background-color: #2f2f3d;
+}
+
+.newsletter-text{
+    background-color: #2f2f3d;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left:10rem;
+    margin-right: 0rem;
+}
+.newsletter{
+    
+    padding:3rem 5rem;
+    margin-top: 4rem;
+
+
+}
+.newsletter-form{
+    background: #2f2f3d;
+    display: flex;
+    
+}
+.newsletter-btn{
+    margin-left: 4rem;
+    width:15rem;
+    line-height: 2;
+    padding: 0.3rem;
+    background:#46C2FF;
+    color:#fff;
+    font-weight: bolder;
+
+}
+.footer{
+   
+    margin-top: 5rem;
+
+}
+.footer p{
+    /* margin-left:15rem ;
+    width:25vw; */
+    margin-left: 10rem;
+    text-align: center;
+}
+.footer-contact h4 {
+    margin-left: 8rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.footer-contact p{
+    margin-left: 8rem;
+    margin-top: 1rem;
+    padding-top:0rem ;
+    text-align: center;
+}
+.footer-social h4{
+    /* margin-left: 10rem; */
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.social-img{
+      margin-left: 1rem; 
+     text-align: center;
+}
+.social-img>img{
+    margin: 0.5rem;
+    
+}
+
+
+/* ============== For mobile phones:================ */
+@media only screen and (max-width: 768px) {
+    .navbar-expand-lg{
+        margin-left: 5rem;
+    }
+    .banner-area .main-text h3{
+        margin:-4rem 10rem;
+        padding-left:13rem;
+        font-size: 40px;
+    }
+    .banner-area p{
+        margin-top: 4rem;
+    /* padding-left: 13rem; */
+    line-height: 2;
+    }
+    .banner-area .home .image>img{
+        margin-top: 6rem;
+    }
+    .button-img a{
+        margin-left: 5rem;
+        size:100px;
+    }
+    .about-area .main-text{
+        margin-left: 5rem;
+    }
+    .about-area .about-text h3{
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+    .about-area .para{
+        padding:0 0.1rem;
+        margin-left: 5rem;
+    }
+    .about-area img {
+        margin-left: 5rem;
+    }
+    .showcase .main-text{
+        margin-left: 5rem;
+    }
+    .features-area .main-text{
+        margin-left: 5rem;
+    }
+    .features-area .features-text h3{
+        margin-left: 5rem;
+        margin-top:1rem;
+    }
+    .features-area .para{
+        padding:0 0.1rem;
+        margin-left: 5rem;
+    }
+    .features-area button{
+        padding:0 0.1rem;
+        margin-left: 5rem;
+    }
+    .features-area .card-1 .card-2 .card-3{
+        padding:0 0.1rem;
+        margin-left: 8rem;
+        height: 40vh;
+    }
+    .card-text-para{
+        padding:0 0.1rem;
+    }
+  }
+ 
